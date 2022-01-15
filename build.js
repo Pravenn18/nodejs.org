@@ -11,7 +11,7 @@ const gracefulFs = require('graceful-fs')
 gracefulFs.gracefulify(fs)
 
 const path = require('path')
-const Metalsmith = require('metalsmith')
+const Metlsmith = require('metalsmith')
 const collections = require('metalsmith-collections')
 const feed = require('metalsmith-feed')
 const discoverHelpers = require('metalsmith-discover-helpers')
